@@ -1,0 +1,30 @@
+.header {
+    width: 100%;
+    padding: 50px 20px;
+    background-color: #fff;
+    border-radius: 0 0 75px 75px;
+    box-sizing: border-box;
+}
+
+.header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #0055a4;
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.header__img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
